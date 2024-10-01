@@ -40,7 +40,7 @@ jobs:
         id: cli_version
 
       - name: Build and push to DockerHub
-        uses: docker/build-push-action@2eb1c1961a95fc15694676618e422e8ba1d63825 # pin@v4.1.1
+        uses: docker/build-push-action@4f58ea79222b3b9dc2c8bbdd6debcef730109a75 # pin@v4.1.1
         with:
           context: .
           file: Dockerfile
