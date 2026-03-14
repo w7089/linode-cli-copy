@@ -9,7 +9,7 @@ jobs:
   update_release_draft:
     runs-on: ubuntu-latest
     steps:
-      - uses: release-drafter/release-drafter@fe52e97d262833ae07d05efaf1a239df3f1b5cd4 # pin@v5
+      - uses: release-drafter/release-drafter@5a8b0d3eea08f9c7872929c5b21b0f379d4650df # pin@v5
         with:
           config-name: release-drafter.yml
         env:
