@@ -20,7 +20,7 @@ jobs:
         uses: docker/setup-qemu-action@2b82ce82d56a2a04d2637cd93a637ae1b359c0a7 # pin@v2.2.0
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@ecf95283f03858871ff00b787d79c419715afc34 # pin@v2.7.0
+        uses: docker/setup-buildx-action@c8ad1c5d0f6f39c2bc446b807fa8ea2afadcddb6 # pin@v2.7.0
 
       - name: Login to Docker Hub
         uses: docker/login-action@465a07811f14bebb1938fbed4728c6a1ff8901fc # pin@v2.2.0
